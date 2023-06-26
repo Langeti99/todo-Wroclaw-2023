@@ -1,0 +1,97 @@
+.todo{
+    display: grid;
+    grid-template-rows: 70px 30px auto 30px;
+    border-radius: 8px;
+    background-color: #fff;
+    // box-sizing: border-box;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.15);
+    width: 100%;
+
+    .TodoHeader{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 10px 0;
+        >span{
+            display: block;
+            text-align: center;
+            width: 100%;
+            font-size: 24px;
+            margin: 20px;
+            cursor: pointer;
+        }
+        >button{
+            width: 70px;
+            height: 70px;
+            border: none;
+            background-color: #fff;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    }
+    .AddForm{
+        padding: 0px 20px;
+        >div{
+            width: 100%;
+        }
+        .AddInput{
+            width: 100%;
+        }
+    }
+    .TasksBlock{
+        margin: 0;
+        padding: 10px 20px;
+        list-style-type: none;
+
+        li{
+            display: grid;
+            grid-template-columns: 30px auto 30px;
+            gap: 10px;
+            height: 28px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            >input{
+                cursor: pointer;
+            }
+            >span{
+                line-height: 40px;
+            }
+            >button{
+                background-color:inherit;
+                border:none;
+                cursor: pointer;
+            }
+        }
+    }
+    .Filter{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+        button{
+            width: 125px;
+            padding: 5px 10px;
+            border-radius: 8px;
+            border: none;
+        }
+    }
+}
+
+.AddForm{
+    >div{
+        display: flex;
+    }
+    .AddInput{
+        border-radius: 8px;
+        height: 25px;
+        border-right: none;
+        margin-right: 10px;
+    }
+    
+    .AddButton{
+        border-radius:8px;
+        background-color: #14eeac;
+        color: #fff;
+        border:none;
+        height: 29px;
+      }
+}
