@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/todo-Wroclaw-2023/static/css/main.1f2a2aed.css",
+    "main.css": "/todo-Wroclaw-2023/static/css/main.dabe1712.css",
     "main.js": "/todo-Wroclaw-2023/static/js/main.c3952b25.js",
     "static/js/787.44ff0cb5.chunk.js": "/todo-Wroclaw-2023/static/js/787.44ff0cb5.chunk.js",
     "index.html": "/todo-Wroclaw-2023/index.html",
-    "main.1f2a2aed.css.map": "/todo-Wroclaw-2023/static/css/main.1f2a2aed.css.map",
+    "main.dabe1712.css.map": "/todo-Wroclaw-2023/static/css/main.dabe1712.css.map",
     "main.c3952b25.js.map": "/todo-Wroclaw-2023/static/js/main.c3952b25.js.map",
     "787.44ff0cb5.chunk.js.map": "/todo-Wroclaw-2023/static/js/787.44ff0cb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f2a2aed.css",
+    "static/css/main.dabe1712.css",
     "static/js/main.c3952b25.js"
   ]
 }
