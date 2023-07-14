@@ -95,3 +95,23 @@
         height: 29px;
       }
 }
+
+@media (max-width: 520px) {
+    .todo{
+        display: block;
+        & .Filter{
+            & button{
+                width: 85px;
+            }
+        }
+    }
+
+    .AddForm {
+        & > div {
+            justify-content: space-between;
+        }
+        .AddInput{
+            width: 100%;
+        }
+  }
+}

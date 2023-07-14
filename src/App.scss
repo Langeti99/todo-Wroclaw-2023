@@ -58,3 +58,36 @@
   text-decoration: line-through;
   // opacity: .5;
 }
+
+@media (max-width: 520px) {
+  .App {
+    display: block;
+
+    & h1 {
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+
+    & .TitleFor {
+      margin-bottom: 20px;
+      font-size: 20px;
+  }
+
+    & .AddTask{
+      display: block;
+      margin-bottom: 20px;
+    }
+    
+  }
+
+.Content {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+}
+
+
+@media (max-width: 520px) {
+  .Content {
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+}
